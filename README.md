@@ -1,63 +1,73 @@
-#  Adaptive Study Explainer
+# 🧠 Adaptive Study Explainer
 
 An AI-powered local learning assistant that explains topics based on user understanding and uploaded documents.
 
-Built using lightweight architecture (no vector databases or embeddings) for fast, offline performance.
+Built with a lightweight architecture for fast, offline performance (no vector databases or embeddings).
 
 ---
 
-##  Features
+## 📸 Screenshots
 
-###  Document Understanding
+<p align="center">
+  <img src="ui.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="output.png" width="700"/>
+</p>
+
+---
+
+## 🚀 Features
+
+### 📂 Document Understanding
 - Upload PDF or Word documents
 - Extracts and analyzes content locally
 - Generates concise summaries (100–200 words)
 
-###  Adaptive Learning Mode
+### 🤔 Adaptive Learning Mode
 - AI asks targeted questions before teaching
 - Understands user knowledge level and gaps
 - Adjusts explanation accordingly
 
-###  Personalized Explanations
+### 📘 Personalized Explanations
 - Tailored based on:
   - User level (Beginner / Intermediate / Advanced)
   - User answers
   - Document context
 
-###  Smart Summarization
-- Generates short summaries of explanations
-- Helps quick revision and understanding
+### ⚡ Smart Summarization
+- Generates short summaries for quick revision
 
-###  Lightweight Memory
+### 🧠 Lightweight Memory
 - Tracks weak topics based on user responses
-- No complex embeddings or vector databases
-- Simple and efficient JSON-based storage
+- Uses simple JSON storage (no embeddings)
 
 ---
 
-##  Tech Stack
+## 🛠️ Tech Stack
 
-- Python
-- Streamlit
-- Ollama (phi3 model)
-- PyPDF2 (PDF parsing)
-- python-docx (Word parsing)
+- Python  
+- Streamlit  
+- Ollama (phi3)  
+- PyPDF2  
+- python-docx  
 
 ---
 
-##  How It Works
+## ⚙️ How It Works
 
-1. User enters a topic or uploads a document  
+1. Enter a topic or upload a document  
 2. AI optionally asks diagnostic questions  
-3. User responses are analyzed  
+3. User answers are analyzed  
 4. AI generates:
-   - Explanation
-   - Summary
-5. Weak topics are stored for future adaptation  
+   - Explanation  
+   - Summary  
+5. Weak topics are stored for adaptation  
 
 ---
 
-## How to Run
+## ▶️ Run Locally
 
 ```bash
 pip install -r requirements.txt
