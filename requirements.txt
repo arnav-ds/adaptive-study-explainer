@@ -1,0 +1,4 @@
+streamlit==1.32.2
+ollama==0.1.8
+python-dotenv==1.0.1
+pydantic==2.6.4
