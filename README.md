@@ -9,13 +9,26 @@ Built with a lightweight architecture for fast, offline performance (no vector d
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="ui.png" width="700"/>
+  <img src="1.png" width="700"/>
 </p>
 
 <p align="center">
   <img src="output.png" width="700"/>
 </p>
 
+<p align="center">
+  <img src="2.png" width="700"/>
+</p>
+
+<p align="center">
+  <img src="3.png" width="700"/>
+</p>
+<p align="center">
+  <img src="4.png" width="700"/>
+</p>
+<p align="center">
+  <img src="5.png" width="700"/>
+</p>
 ---
 
 ## 🚀 Features
